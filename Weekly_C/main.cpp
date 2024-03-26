@@ -43,3 +43,35 @@ void main() {
 */
 
 
+/// <summary>
+/// prob2-1
+/// </summary>
+/*
+void main() {
+	int a, b;
+	printf("a =");
+	scanf_s("%d", &a);
+	printf("b =");
+	scanf_s("%d", &b);
+	printf("a + b = %d\n", a + b);
+	printf("a - b = %d\n", a - b);
+	printf("a * b = %d\n", a * b);
+	printf("a / b = %d\n", a / b);
+	printf("a %% b = %d\n", a % b);
+}
+*/
+
+
+/// <summary>
+/// prob2-2
+/// </summary>
+/*
+void main() {
+	int a, b;
+	printf("長方形の幅：");
+	scanf_s("%d", &a);
+	printf("長方形の高さ：");
+	scanf_s("%d", &b);
+	printf("長方形の面積は、%dｍ2です。\n", a * b);
+}
+*/
