@@ -261,22 +261,278 @@ void main() {
 /// <summary>
 /// prob3-12
 /// </summary>
+//void main() {
+//	int n;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 20 - 10;
+//	printf("数値:%d\n", n);
+//	if (n > 0)
+//	{
+//		printf("正の数です");
+//	}
+//	else if (n < 0) {
+//		printf("負の数です");
+//	}
+//	else
+//	{
+//		printf("0です");
+//	}
+//}
+
+
+/// <summary>
+/// prob3-13
+/// </summary>
+//void main() {
+//	int n;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 3 + 1;
+//	printf("数値：%d\n", n);
+//	if (n == 1)
+//	{
+//		printf("グー\n");
+//	}
+//	if (n == 2)
+//	{
+//		printf("パー\n");
+//	}
+//	if (n == 3)
+//	{
+//		printf("チョキ\n");
+//	}
+//}
+
+
+/// <summary>
+/// prob3-14
+/// </summary>
+//void main() {
+//	int a, b;
+//	srand((unsigned)time(NULL));
+//	a = rand() % 10 + 1;
+//	b = rand() % 10 + 1;
+//	printf("数値a：%d\n", a);
+//	printf("数値b：%d\n", b);
+//	if (a > b) {
+//		printf("aの方が大きいです");
+//	}
+//	else if (a < b) {
+//		printf("bの方が大きいです");
+//	}
+//	else{
+//		printf("等しいです");
+//	}
+//}
+
+
+/// <summary>
+/// prob3-15
+/// </summary>
+//void main() {
+//	int n;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 100 + 1;
+//	printf("点数：%d\n\n", n);
+//	if (n >= 80)
+//	{
+//		printf("優");
+//	}
+//	else if (n >= 70 && n < 80)
+//	{
+//		printf("良");
+//	}
+//	else if (n >= 60 && n < 70)
+//	{
+//		printf("可");
+//	}
+//	else
+//	{
+//		printf("不可");
+//	}
+//}
+
+
+/// <summary>
+/// prob3-16
+/// </summary>
+//void main() {
+//	int n;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 100 + 1;
+//	printf("数値：%d\n", n);
+//	if (n % 2 == 0) {
+//		printf("2の倍数です\n");
+//	}
+//	else if (n % 3 == 0) {
+//		printf("3の倍数です\n");
+//	}
+//	else if (n % 2 == 0 && n % 3 == 0) {
+//		printf("2と3の公約数です\n");
+//	}
+//}
+
+
+/// <summary>
+/// prob3-17
+/// </summary>
+//void main() {
+//	int n;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 100 + 1;
+//	printf("数値：%d\n", n);
+//	if (n <= 50) {
+//		printf("５０以下です\n");
+//	}
+//	else if (n % 2 == 0) {
+//		printf("偶数です\n");
+//	}
+//	if (n <= 50 && n % 2 == 0) {
+//		printf("５０以下の偶数です\n");
+//	}
+//}
+
+
+/// <summary>
+/// prob3-18
+/// </summary>
+//void main() {
+//	int n;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 45 - 10;
+//	printf("摂氏%d度\n", n);
+//	if (n >= 30) {
+//		printf("真夏日です。\n");
+//	}
+//	else if (n >= 25 && n < 30) {
+//		printf("夏日です。\n");
+//	}
+//	else if (n < 0) {
+//		printf("真冬日です。\n");
+//	}
+//}
+
+
+/// <summary>
+/// prob3-19
+/// </summary>
+//void main() {
+//	int n;
+//	scanf_s("%d", &n);
+//	printf("西暦%d年\n", n);
+//	if (n % 4 == 0)
+//	{
+//		printf("閏年です。\n");
+//	}
+//	else if(n % 100 == 0) 
+//	{
+//		printf("閏年ではありません。\n");
+//	}
+//	else if (n % 400 == 0)
+//	{
+//		printf("閏年です。\n");
+//	}
+//	else
+//	{
+//		printf("閏年ではありません。\n");
+//	}
+//}
+
+
+/// <summary>
+/// prob4-1
+/// </summary>
+//void main() {
+//	int n, i;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 10 + 1;
+//	printf("数:%d\n", n);
+//	for (i = 1; i <= n; i++) {
+//		printf("■");
+//	}
+//}
+
+
+/// <summary>
+/// prob4-2
+/// </summary>
+//void main() {
+//	int n, i = 1;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 10 + 1;
+//	printf("数:%d\n", n);
+//	while (i <= n)
+//	{
+//		printf("■");
+//		i++;
+//	}
+//}
+
+
+/// <summary>
+/// prob4-3
+/// </summary>
+//void main() {
+//	int n, i = 1;
+//	srand((unsigned)time(NULL));
+//	n = rand() % 10 + 1;
+//	printf("数:%d\n", n);
+//	do {
+//		printf("■");
+//		i++;
+//	} while (i <= n);
+//}
+
+
+/// <summary>
+/// prob4-4
+/// </summary>
+//void main() {
+//	int a = 0;
+//	while (a <= 3) {
+//		printf("a = %d\n",a);
+//		a++;
+//	}
+//}
+
+
+/// <summary>
+/// prob4-5
+/// </summary>
+//void main() {
+//	for (int a = 0; a <= 3; a++) {
+//		printf("a = %d\n",a);
+//	}
+//}
+
+
+/// <summary>
+/// prob4-6
+/// </summary>
+//void main() {
+//	int a = 3;
+//	while (a >= 0)
+//	{
+//		printf("a = %d\n", a);
+//		a--;
+//	}
+//}
+
+
+/// <summary>
+/// prob4-7
+/// </summary>
+//void main() {
+//	for (int a = 3; a >= 0; a--) {
+//		printf("a = %d\n", a);
+//	}
+//}
+
+
+/// <summary>
+/// prob4-8
+/// </summary>
 void main() {
-	int n;
-	srand((unsigned)time(NULL));
-	n = rand() % -10 - 10;
-	printf("数値:%d\n", n);
-	if (n > 0)
-	{
-		printf("正の数です");
-	}
-	else if (n < 0) {
-		printf("負の数です");
-	}
-	else
-	{
-		printf("0です");
-	}
+
 }
 
 
