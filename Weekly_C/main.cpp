@@ -532,7 +532,16 @@ void main() {
 /// prob4-8
 /// </summary>
 void main() {
-
+	while (1) {
+		int n = 0;
+		srand((unsigned)time(NULL));
+		n = rand() % 10 + 1;
+		printf("%d\n", n);
+		if (n == 10) {
+			break;
+		}
+	}
+	printf("終了します\n");
 }
 
 
