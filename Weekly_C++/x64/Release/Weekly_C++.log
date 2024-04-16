@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\fko2347054\Desktop\中原颯希\Weekly\Weekly_C++\main.cpp(8,6): warning C4101: 'a': ローカル変数は 1 度も使われていません。
+C:\Users\fko2347054\Desktop\中原颯希\Weekly\Weekly_C++\main.cpp(8,9): warning C4101: 'b': ローカル変数は 1 度も使われていません。
+C:\Users\fko2347054\Desktop\中原颯希\Weekly\Weekly_C++\main.cpp(8,12): warning C4101: 'c': ローカル変数は 1 度も使われていません。
+C:\Users\fko2347054\Desktop\中原颯希\Weekly\Weekly_C++\main.cpp(8,15): warning C4101: 'n': ローカル変数は 1 度も使われていません。
+C:\Users\fko2347054\Desktop\中原颯希\Weekly\Weekly_C++\main.cpp(8,18): warning C4101: 'num': ローカル変数は 1 度も使われていません。
+  コード生成しています。
+  1 of 34 functions ( 2.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  Weekly_C++.vcxproj -> C:\Users\fko2347054\Desktop\中原颯希\Weekly\Weekly_C++\x64\Release\Weekly_C++.exe

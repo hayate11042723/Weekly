@@ -1,4 +1,6 @@
-#include<iostream>
+#include <iostream>
+#include "sample.h"
+#include "keisan.h"
 
 using namespace std;
 
@@ -72,8 +74,15 @@ int main() {
 	
 	//std::cout << "HelloWorld." << std::endl;
 
-
-
+	/// <summary>
+	/// prob2-1
+	/// </summary>
+	/// <returns></returns>
+	
+	keisan k;
+	k.a = 4;
+	k.b = 3;
+	cout << k.a << " + " << k.b << " = " << k.add() << endl;
 
 
 	
